@@ -1,0 +1,26 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <p>Wecome to the blue hymnal searcher. Find a hymn quickly by number, name, or by a phrase in the song.</p>
+    <p>Don't use this service unless you own a hymnal!</p>
+    <form method="GET" action="/hymns">
+        <label>Hymn number:</label>
+        <input type="number" name="number"/>
+        <input type="submit" value="Go"/>
+    </form>
+    <form method="GET" action="/search">
+        <label>Hymn Name:</label>
+        <input type="search" name="name"/>
+        <input type="submit" value="Search"/>
+    </form>
+    <form method="GET" action="/search">
+        <label>Hymn Text:</label>
+        <input type="search" name="phrase"/>
+        <input type="submit" value="Search"/>
+    </form>
+</body>
+
+</html>
